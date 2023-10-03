@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        scroll-behavior: smooth;
+      }
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      
+      }
+      th{ background-color: gray;}
+      header,
+      section,
+      footer,
+      nav {
+        border: 1px solid black;
+      }
+    </style>
+    <style>
+      li {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>This is a Header</h1>
+      <nav>
+        <h1>this is a navigation</h1>
+        <ul>
+          <li><a href="#section1">Section1</a></li>
+          <li><a href="#fromsection">Form section</a></li>
+          <li><a href="#fromsection2">Form section2</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section1">
+      <h1>Section1</h1>
+      <h3>web browsers</h3>
+      <p>
+        Google chrome, Firefox, and Internet Explore are the most used browsers
+        today.
+      </p>
+      <h3>Google Chrome</h3>
+      <p>Google Chrom in 2008.</p>
+      <h3>Article</h3>
+      <p>
+        Internet explorer is a free web browser from Microsoft, released in
+        1995.
+      </p>
+      <h3>Mozilla Firefox</h3>
+      <p>
+        Firefox is a free, open-source web browser from Mozilla, released in
+        2004.
+      </p>
+    </section>
+    <section id="fromsection">
+      <h1>From Section 1</h1>
+      <label for="name">Name:</label>
+      <input type="text" name="" id="name" />
+      <br />
+      <label for="">Gender:</label>
+      <input type="radio" name="agender" id="gender" />
+      <label for="gender">Male</label>
+      <input type="radio" name="agender" id="female" />
+      <label for="female">Female</label>
+      <br />
+      <label for="pets">Pets:</label>
+      <select name="pet" id="pets">
+        <option value="city">City</option>
+        <option value="country">country</option>
+        <input type="submit" value="submit" />
+      </select>
+    </section>
+    <section id="fromsection2">
+      <h1>Form Section 2</h1>
+      <table>
+        <thead>
+          <tr>
+            <th >First Name</th>
+            <th>Last Name</th>
+            <th>email Address</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hillary</td>
+            <td>Nyakundi</td>
+            <td>tables@mail.com</td>
+          </tr>
+          <tr>
+            <td>Lary</td>
+            <td>Mak</td>
+            <td>developer@mail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">hillary</td>
+            <td>advenced web</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>operating system</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Lary</td>
+            <td>advenced web</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>operating system</td>
+            <td>75</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">total</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section id="footer">
+      <h1>Footer</h1>
+      <p>copyright all rights reserved</p>
+    </section>
+  </body>
+</html>
