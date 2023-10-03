@@ -13,14 +13,15 @@
       td {
         border: 1px solid black;
         border-collapse: collapse;
-      
       }
-      th{ background-color: gray;}
+      th {
+        background-color: rgb(159, 136, 136);
+      }
       header,
       section,
       footer,
       nav {
-        border: 1px solid black;
+        border: 1px solid rgb(139, 11, 11);
       }
     </style>
     <style>
@@ -63,29 +64,31 @@
       </p>
     </section>
     <section id="fromsection">
-      <h1>From Section 1</h1>
-      <label for="name">Name:</label>
-      <input type="text" name="" id="name" />
-      <br />
-      <label for="">Gender:</label>
-      <input type="radio" name="agender" id="gender" />
-      <label for="gender">Male</label>
-      <input type="radio" name="agender" id="female" />
-      <label for="female">Female</label>
-      <br />
-      <label for="pets">Pets:</label>
-      <select name="pet" id="pets">
-        <option value="city">City</option>
-        <option value="country">country</option>
-        <input type="submit" value="submit" />
-      </select>
+      <form action="">
+        <h1>From Section 1</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="" id="name" required />
+        <br />
+        <label for="">Gender:</label>
+        <input type="radio" name="agender" id="gender" />
+        <label for="gender">Male</label>
+        <input type="radio" name="agender" id="female" />
+        <label for="female">Female</label>
+        <br />
+        <label for="pets">Pets:</label>
+        <select name="pet" id="pets">
+          <option value="city">City</option>
+          <option value="country">country</option>
+          <input type="submit" value="submit" />
+        </select>
+      </form>
     </section>
     <section id="fromsection2">
       <h1>Form Section 2</h1>
       <table>
         <thead>
           <tr>
-            <th >First Name</th>
+            <th>First Name</th>
             <th>Last Name</th>
             <th>email Address</th>
           </tr>
