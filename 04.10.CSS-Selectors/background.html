@@ -24,11 +24,12 @@
       <h3 id="heading3">Heading 3</h3>
       <br />
       <p>Paragraph inside div</p>
-      <br />
+
       <p>Hello span</p>
     </div>
 
     <hr />
+
     <div class="head">
       <h2 id="heading3">Heading 1</h2>
       <br />
@@ -38,13 +39,17 @@
     </div>
     <hr />
     <div class="head">
-      <p>This is <span style="color: rgb(163, 13, 13)">a</span> tag</p>
+      <a href="#" id="link">This is <span>a</span> tag</a>
     </div>
     <hr />
 
     <div class="head">
       <a href=""
-        ><img src="./catttt.jfif" alt="" width="200" height="200" />
+        ><img
+          src="./catttt.jfif"
+          alt="A cute orange cat lying on its back"
+          style="height: 90px"
+        />
       </a>
     </div>
 
@@ -70,6 +75,52 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <br /><br />
+    <div id="form">
+      <form action="">
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="fnamme"
+            id="name"
+            placeholder="placeholder"
+          />
+        </div>
+
+        <div>
+          <label for="group">Group Name</label>
+          <input
+            type="text"
+            name="fname"
+            id="group"
+            placeholder="placeholder"
+          />
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <input type="text" name="" id="country" placeholder="placeholder" />
+        </div>
+        <div id="radio">
+          <label for="yes">Yes</label>
+          <input type="radio" name="rate" id="yes" />
+          <label for="no">No</label>
+          <input type="radio" name="rate" id="no" />
+        
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="imageDiv">
+      <div>
+        <h1>Normal Image</h1>
+        <img src="./piyanist.jfif" alt="" id="imagepianist">
+      </div>
+      <div>
+        <h1>Low opacity Image</h1>
+        <img src="./harrypotter.jfif" alt="" id="hobbit">
+      </div>
     </div>
   </body>
 </html>
