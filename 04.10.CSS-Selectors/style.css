@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+
+  list-style: none;
+}
+.head {
+  background-color: rgb(117, 167, 43);
+}
+.pot {
+  background-image: url(./843204.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 20rem;
+}
+ul {
+  color: red;
+  font-size: 200;
+}
+#harry {
+  color: white;
+}
+#heading3 {
+  color: yellow;
+}
+p {
+  color: blue;
+}
+table, th, td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 400px;
+   height: 50px;
+}
+.films{
+    background-color: aqua;
+}
