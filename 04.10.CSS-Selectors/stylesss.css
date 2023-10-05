@@ -2,6 +2,6 @@ table, th, td {
     border: 1px solid black;
  
 }
-td:nth-child(even){
+ tbody tr:nth-child(odd){
     background-color: skyblue;
 }
