@@ -1,0 +1,66 @@
+.box {
+  display: flex;
+  gap: 40px;
+}
+.cont {
+  background-color: rgb(190, 223, 47);
+  border: 5px solid black;
+  height: 100px;
+}
+.box-1 {
+  width: 10%;
+}
+.box-2 {
+  width: 80%;
+}
+.box-3 {
+  width: 10%;
+}
+.div {
+  margin: 10px 0px;
+  display: flex;
+  gap: 40px;
+}
+.div1-box {
+  width: 70%;
+}
+.div2-box {
+  width: 10%;
+}
+.div3-box {
+  width: 20%;
+}
+
+.div1 {
+  display: flex;
+  gap: 40px;
+}
+.div-box1 {
+  width: 10%;
+}
+.div-box2 {
+  width: 20%;
+}
+.div-box3 {
+  width: 70%;
+}
+.class {
+  margin: 10px 0px;
+  display: flex;
+  gap: 40px;
+}
+.class1 {
+  width: 30%;
+}
+.class2 {
+  width: 5%;
+}
+.class3 {
+  width: 30%;
+}
+.class4 {
+  width: 5%;
+}
+.class5 {
+  width: 30%;
+}

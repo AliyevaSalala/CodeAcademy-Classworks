@@ -1,0 +1,41 @@
+.text{
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 36px;
+    color: rgb(84, 84, 167);
+    text-decoration: underline;
+    text-shadow: 2px 2px burlywood;
+    text-transform: capitalize;
+
+}
+.roll{
+    font-family: 'Martian Mono', monospace;
+    font-size: 28px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+.jelly{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: blueviolet;
+
+}
+.drop{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+    color: green;
+}
+.apple{
+    font-family: 'Roboto Mono', monospace;
+    color: green;
+    font-size: 25px;
+}
+.gling{
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 20px;
+    color: chocolate;
+}
+.cake{
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 20px;
+    color: brown;
+}
