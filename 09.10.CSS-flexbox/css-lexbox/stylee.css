@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.body{
+  background-image: linear-gradient(pink, red);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.form{
+    border: 1px solid white;
+    background-color: wheat;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social form{
+    text-align: center;
+}
+.social form input{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+form button{
+    background-color: blue;
+    color: white;
+    width: 300px;
+ margin-bottom: 10px;
+    padding: 10px;
+
+}
+.facebook a i{
+    color: blue;
+    margin: 10px;
+}
+.submit button{
+    color: black;
+    background-color: white;
+margin-top: 30px;
+}
