@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    height: 200vh;
+    background-color: grey;
+     position: relative;
+}
+.lorem{
+    border: 3px solid blue;
+    border-radius: 5px;
+      margin: 10px;
+   
+}
+.lorem1{
+  background-color: goldenrod;
+    height: 150px;
+    position: fixed;
+}
+.lorem2{
+    background-color: green;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+}
+.lorem3{
+    background-color: rgb(73, 73, 170);
+      height: 150px;
+}
+.lorem4{
+    background-color: skyblue;
+    height: 100px;
+}
