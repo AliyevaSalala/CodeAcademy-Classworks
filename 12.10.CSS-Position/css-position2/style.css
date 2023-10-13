@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+
+#container {
+  height: 100%;
+  position: relative;
+}
+
+.box:not(:nth-child(1)) {
+  border: 3px solid blue;
+  margin-top: 2rem;
+}
+
+.box-brown {
+  background-color: brown;
+  height: 20vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.box-green {
+  background-color: green;
+  height: 10vh;
+  margin-top: 180px !important;
+  position: relative;
+  left: 20px;
+}
+
+.box-cyan {
+  background-color: cyan;
+  height: 15vh;
+  /* position: absolute; */
+  width: 100%;
+}
+
+.box-blue {
+  background-color: blue;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
