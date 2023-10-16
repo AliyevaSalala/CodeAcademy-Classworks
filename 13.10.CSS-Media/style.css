@@ -37,67 +37,28 @@ header{
     column-gap: 10px;
 }
 .button .sign, .button .login{
+    border: none;
     cursor: pointer;
     padding: 10px 10px;
+}
+.button .login{
+    background-color: transparent;
+    color: white;
+}
+.button:focus{
+    border: 2px solid blue;
 }
 .button .sign{
     border-radius: 5px;
     background-color: aqua;
 }
-/* .button .login{
-    background-color: transparent;
-} */
+
 .quickly .fa-solid{
     font-size: 25px;
     display: none;
 }
-@media screen and ( max-width: 767px) {
-    .quickly nav, .quickly .button{
-        display: none;
-    }
-    .quickly .fa-solid{
-        color: white;
-        display: block;
-    }
-    
-}
-/* #section{
-    height: 100vh;
-} */
-.section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.lorem p{
-    font-size: 20px;
-}
-.section .image{
-    margin: 20px;
-}
-.tasks h1{
-    margin: 20px;
-}
-.input{
-    margin: 20px;
-}
-form input{
-    width: 300px;
-}
-.input{
-    position: relative;
-}
-form input, form button{
-    padding: 10px;
-    border-radius: 5px;
-}
-form button{
-    position: absolute;
-    right: 2px;
-    background-color: transparent;
 
-}
+/* Section */
 .team{
     width: 100%;
     display: flex;
@@ -127,42 +88,61 @@ form button{
 column-gap: 40px;
 }
 .foto1 h1, .foto1 p{
-    /* padding: 10px; */
     text-align: center;
     margin-bottom: 20px;
 }
+/* FOTTER */
+
 footer{
-    background-color: rgb(87, 87, 163);
-    height: 50vh;
+    background-color: rgb(5, 39, 5);
 }
-.footer{
+.fotter{
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.company{
-    display: flex;
-}
-.icons{
-    font-size: 28px;
-    margin-left: 40px;
-}
-.icons i{
-    cursor: pointer;
+.fa-brands{
     border: 2px solid white;
     border-radius: 50%;
     padding: 10px;
-}
-.ourcompany h2, .ourcompany a{
     color: white;
+   
 }
-.ourcompany h2{
-margin-bottom: 15px;
+.left h1{
+    margin-bottom: 10px;
 }
-.company .ourcompany{
-    margin: 20px;
-    padding: 30px;
+.fotter .left, .fotter .right{
+    width: 50%;
+}
+.right{
     display: flex;
-    justify-content: center;
+}
+.company{
+  padding: 20px;
+}
+.company nav h1, .company nav ul li a{
+    color: white;
+    font-size: 20px;
+}
+@media screen and ( max-width: 767px) {
+    .quickly nav, .quickly .button{
+        display: none;
+    }
+    .quickly .fa-solid{
+        color: white;
+        display: block;
+    }
+    
+}
+@media screen and (max-width:765px){
+ .fotter{
     flex-direction: column;
+
+ }
+ .left{
+    text-align: center;
+ }
+}
+@media screen and (max-width:570px){
+    
 }
