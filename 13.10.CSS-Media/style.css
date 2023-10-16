@@ -36,19 +36,19 @@ header{
 .quickly .button{
     column-gap: 10px;
 }
-.button .sign, .button .login{
+.login-buttons .sign, .login-buttons .login{
     border: none;
     cursor: pointer;
     padding: 10px 10px;
 }
-.button .login{
+.login-buttons .login{
     background-color: transparent;
     color: white;
 }
-.button:focus{
+.login-buttons button:focus{
     border: 2px solid blue;
 }
-.button .sign{
+.login-buttons .sign{
     border-radius: 5px;
     background-color: aqua;
 }
@@ -91,12 +91,12 @@ column-gap: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
-/* FOTTER */
+/* footer */
 
 footer{
     background-color: rgb(5, 39, 5);
 }
-.fotter{
+.footer{
     padding: 3rem;
     display: flex;
     justify-content: space-between;
@@ -111,7 +111,7 @@ footer{
 .left h1{
     margin-bottom: 10px;
 }
-.fotter .left, .fotter .right{
+.footer .left, .footer .right{
     width: 50%;
 }
 .right{
@@ -125,7 +125,7 @@ footer{
     font-size: 20px;
 }
 @media screen and ( max-width: 767px) {
-    .quickly nav, .quickly .button{
+    .quickly nav, .quickly .login-buttons{
         display: none;
     }
     .quickly .fa-solid{
@@ -135,14 +135,16 @@ footer{
     
 }
 @media screen and (max-width:765px){
- .fotter{
+ .footer{
     flex-direction: column;
+    text-align: center;
 
  }
- .left{
-    text-align: center;
+ .footer .left{
+    width: 100%;
  }
-}
-@media screen and (max-width:570px){
-    
+ .footer .right{
+    flex-direction: column;
+    width: 100%;
+ }
 }
