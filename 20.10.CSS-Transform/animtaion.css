@@ -1,0 +1,24 @@
+.boxes{
+    height: 100vh;
+}
+.box{
+width: 200px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: brown;
+animation-name: box;
+animation-iteration-count: infinite;
+animation-duration: 3s;
+}
+@keyframes box{
+from{
+    transform: rotate(0deg);
+
+}
+to{
+    transform: rotate(360deg);
+
+}
+}
