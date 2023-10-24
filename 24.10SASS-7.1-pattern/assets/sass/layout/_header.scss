@@ -1,0 +1,23 @@
+header{
+    padding: 2rem;
+    .header-section{
+        @include flexBox();
+        h3{
+            color: $primary-color;
+            font-size: 24px;
+        }
+        nav{
+            ul{
+                @include flexBox();
+                gap: 2rem;
+             li{
+                a{
+                    color: $color-gray;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+             }
+        }
+    }
+    }
+}

@@ -1,11 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -60,6 +52,14 @@ table {
   border-spacing: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -71,65 +71,31 @@ table {
 }
 
 header {
-  background-color: #b43838;
-  padding: 1.5rem;
+  padding: 2rem;
 }
-header .boxes {
+header .header-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .boxes nav ul {
-  display: flex;
-  gap: 15px;
+header .header-section h3 {
+  color: #252B42;
+  font-size: 24px;
 }
-header .boxes nav ul li a {
-  font-size: 26px;
-  color: #fff;
+header .header-section nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+header .header-section nav ul li a {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-footer {
-  background-color: pink;
-  padding: 25px;
-}
-footer .content-footer .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: solid #F3D1BF;
-}
-footer .content-footer .content h1 {
-  color: #391400;
-  margin: 20px 0;
-  font-size: 25px;
-}
-footer .content-footer .content .menu h3 {
-  color: #EF6D58;
-  padding: 10px 0;
-}
-footer .content-footer .content .menu nav ul li a {
-  color: #391400;
-  line-height: 1.6;
-}
-footer .content-footer .content .icons {
-  margin: 20px 0;
-}
-footer .content-footer .content .icons i {
-  padding: 15px;
-  color: #fff;
-  background-color: #EF6D58;
-  border-radius: 50%;
-}
-footer .content-footer .content-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-footer .content-footer .content-2 .left {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+#section-background {
+  background-image: url("./image/background.svg");
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

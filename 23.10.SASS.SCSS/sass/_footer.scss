@@ -1,0 +1,49 @@
+footer {
+  background-color: $btn-color;
+  padding: 25px;
+  .content-footer {
+    .content {
+      @include flexbox();
+      border-bottom: solid $color-before ;
+      h1 {
+        color: $color-brown;
+        margin: 20px 0;
+        font-size: 25px;
+      }
+      .menu {
+        h3 {
+          color: $primary-color-2;
+          padding: 10px 0;
+        }
+        nav {
+          ul {
+            li {
+              a {
+                color: $color-brown;
+                line-height: 1.6;
+              }
+            }
+          }
+        }
+      }
+      .icons {
+        margin: 20px 0;
+        i {
+          padding: 15px;
+          color: $color-white-2;
+          background-color: $primary-color-2;
+          border-radius: 50%;
+        }
+      }
+    }
+    .content-2{
+        @include flexbox();
+        padding: 20px;
+        .left{
+            @include flexbox(space-between);
+            column-gap: 20px;
+        }
+        }
+    }
+  }
+
