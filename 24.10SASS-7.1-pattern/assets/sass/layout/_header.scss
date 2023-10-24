@@ -19,5 +19,30 @@ header{
              }
         }
     }
+    .fa-cart-shopping{
+       visibility: hidden;
+       color: $color-gray;
+       font-weight: 25px;
+    }
+    .fa-magnifying-glass{
+        visibility: hidden;
+        color: $color-gray;
+        font-weight: 25px;
+    }
+    @media screen and (max-width:767px){
+        .header-section{
+            nav{
+                ul{
+                    display: none;
+                }
+            }
+            .fa-cart-shopping{
+                display: block;
+            }
+            .fa-magnifying-glass{
+                display: block;
+            }
+        }
+    }
     }
 }

@@ -1,3 +1,111 @@
 section{
-    
+    .conten-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        width: 50%;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h1{
+            color: $primary-color;
+            letter-spacing: 0.2px;
+          
+        }
+        h4{
+            color: $color-gray;
+            letter-spacing: 0.2px
+          
+        }
+        .button{
+            display: flex;
+            column-gap: 10px;
+            .learn-more{
+                background-color: $color-white;
+                border: 1px solid $color-brown;
+                color: $color-brown;
+              
+            }
+        }
+      
+    }
+    .section-low{
+        @include flexBox ();
+        padding: 3rem 0;
+        .box{
+            width: 30%;
+            padding: 25px 40px;
+            background-color: $color-white;
+        //   text-shadow: 0 2px 3px #e6d3d3;
+          i{
+            color: $primary-color;
+            font-size: 26px;
+            padding: 10px 0;
+          }
+          h3{
+            letter-spacing: 0.1px;
+            font-weight: 700;
+            color: $primary-color;
+            padding: 10px 0;
+          }
+          p{
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: $color-gray;
+          }
+        }
+        .box:nth-child(3){
+            background-color: $color-bacgkround;
+        }
+    }
+    @media screen and (max-width:767px){
+            .services{
+               justify-content: center;
+                
+            }
+            .services .button{
+                flex-direction: column;
+                gap: 10px;
+            }
+            .section-low{
+                flex-direction: column;
+                gap: 20px;
+            }
+            .section-low .box{
+                width: 80%;
+              
+            }
+    }
+} 
+#section-two{
+    .section-two{
+        padding: 4rem 0;
+        .text-align{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+            h2{
+                color: $primary-color;
+            }
+            p{
+                font-size: 14px;
+                letter-spacing: 0.2px;
+                color: $color-gray;
+            }
+        }
+        .card{
+            // @include flexBox();
+            display: flex;
+            gap: 30px;
+            .image{
+                width: 25%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
