@@ -1,0 +1,80 @@
+#home {
+  background-color: $primary-color;
+  .section-portfolio {
+    text-align: center;
+    padding: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h1 {
+      color: $color-white;
+      font-weight: 700px;
+    }
+    p {
+      color: $color-white;
+      text-align: center;
+      align-items: center;
+      font-weight: 400px;
+      font-size: 16px;
+      max-width: 500px;
+      padding: 20px 0;
+    }
+  }
+}
+#section-two {
+  background-color: $baclground-color;
+  .section-two {
+    .text {
+      padding: 2rem;
+      nav {
+        ul {
+          @include flexbox(center);
+          gap: 20px;
+          li {
+            a {
+              color: $color-orange;
+            }
+          }
+        }
+      }
+    }
+    .card {
+      padding: 2rem;
+      @include flexbox(space-between);
+      flex-wrap: wrap;
+      gap: 10px;
+      .box {
+        position: relative;
+        width: 30%;
+        img {
+          width: 100%;
+        }
+        .button-2 {
+          position: absolute;
+          bottom: 10%;
+          left: 10%;
+          h3 {
+            font-weight: 700px;
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+  .learn-more{
+    padding: 3rem;
+
+ @include flexbox(center,center);
+  }
+  @media screen and (max-width:767px){
+    .section-two{
+        .card{
+            flex-direction: column;
+            .box{
+                width: 100%;
+            }
+        }
+    }
+  }
+}

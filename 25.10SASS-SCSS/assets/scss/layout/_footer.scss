@@ -1,0 +1,12 @@
+footer {
+    background-color: $baclground-color;
+    padding: 25px;
+.content-footer{
+    .content{
+        @include flexbox();
+       
+    }
+}
+    }
+  
+  

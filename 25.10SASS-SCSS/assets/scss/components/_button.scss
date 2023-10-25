@@ -1,0 +1,41 @@
+.button {
+  background-color: $primary-color;
+  width: 138px;
+  height: 48px;
+  border: 1px solid #fff;
+  color: $color-white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #fff;
+    color: $primary-color;
+  }
+}
+.button-design {
+  // width: 85px;
+  // height: 40px;
+  padding: 10px 15px;
+  color: $color-orange;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.button-learn {
+  width: 170px;
+  height: 48px;
+  border: none;
+  background-color: $color-white;
+  color: $color-orange;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+&:hover{
+    background-color: transparent;
+    border: 1px solid $color-orange;
+}
+  // text-shadow: 0 3px 9px #391400;
+}
