@@ -76,6 +76,14 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -243,6 +251,73 @@ section .section-low .box:nth-child(3) {
 }
 #section-two .section-two .card .image img {
   width: 100%;
+}
+
+#section-three .section-three {
+  padding: 2rem 0;
+}
+#section-three .section-three .we-are {
+  text-align: center;
+}
+#section-three .section-three .we-are h2 {
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  color: #252B42;
+}
+#section-three .section-three .we-are p {
+  color: #737373;
+  letter-spacing: 0.2px;
+}
+#section-three .section-three .left-right {
+  display: flex;
+  padding: 2rem;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+}
+#section-three .section-three .left {
+  width: 50%;
+}
+#section-three .section-three .left img {
+  width: 100%;
+}
+#section-three .section-three .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#section-three .section-three .right h2 {
+  color: #252B42;
+  max-width: 300px;
+  letter-spacing: 0.2px;
+}
+#section-three .section-three .right p {
+  max-width: 300px;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  color: #737373;
+}
+#section-three .section-three .right .icons {
+  display: flex;
+  gap: 30px;
+}
+#section-three .section-three .right .icons i {
+  color: #D0A144;
+  font-size: 26px;
+}
+#section-three .section-three .right .icons .quick h5 {
+  max-width: 270px;
+  color: #252B42;
+}
+#section-three .section-three .right .icons .quick h6 {
+  color: #737373;
+}
+
+#section-four .content-section .section-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
 }
 
 #section-background {
